@@ -1,0 +1,9 @@
+.label-oeuvres{
+    font-weight: bolder;
+}
+
+.info-oeuvres img, .img-demo{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
