@@ -104,28 +104,23 @@ body{
 }
 .croix{
     position: absolute; 
-    top: 10px;
-    right: 18px;
-    margin-top: 20px;
     cursor: pointer;
     z-index: 170; 
+    top: 15px;
+    right: 10px;
+    line-height: 75 px;
+    text-align: center;
+    color: #ffffff;
 }
-.croix .barre{
-    background-color:#ffffff;
-    height: 5px; 
-    width: 40px;
-    border-radius: 20px;
-    margin: 5px;
-    transition: all 3s;
+.croix p{
+    border: #ffffff solid 2px;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    color: #ffffff;
+    border: #ffffff solid 2px;
 }
-.croix #barre1{
-    transform: rotate(45deg);
-}
-.croix #barre2{
-    transform: rotate(-45deg);
-    margin-top: -10px;
-}
-
 #menuresponsive{
     top: 50%;
     transform: translateY(-25%);
@@ -142,6 +137,7 @@ body{
     text-align: center;
     z-index: 1060;
     color: #ffffff;
+    
    
 
 }
@@ -158,8 +154,6 @@ body{
     font-size: 8vw;
     font-family:'quicksand';
 }
-
-
 
 /************* accueil ***********/
 #home{
@@ -214,7 +208,7 @@ p{
     text-align: left;
     margin-left: 40px;
     margin-top: 25px;
-    color:red;
+    color:white;
     z-index: 1070;
     width: 60%;
     font-family: quicksand;
@@ -236,7 +230,7 @@ p{
 
 .droite p{
     text-align:left;
-    color: red;
+    color: #082C51;
     font-family: quicksland;
     z-index: 1071;
     margin-top: 25px;
@@ -244,10 +238,20 @@ p{
     width: 80%;
 }
 
+#quisommesnousresponsive img{
+    background-image: url(images/fondresponsiveqsn.png);
+}
+/*********Service*********/
 
-
-
-
+#ensemble{
+    display: flex;
+}
+.gauche{
+    display:flex ;
+    width: 40%;
+    height: 100vh;
+    background-color:#082C51;
+}
 
 
 
@@ -346,6 +350,8 @@ p{
 #coordonnees p{
     margin: 10px 0;
 }
+
+
 
 
 /*********Footer*********/

@@ -59,9 +59,7 @@
     </header>
     <div id="menu-mobile" class="slide">
         <div class="croix">
-            <div class="barre" id="barre1"></div>
-            <div class="barre" id="barre2"></div>
-          
+          <p>FERMER</p>
         </div>
     <nav id="menuresponsive">
         <ul>
@@ -127,7 +125,17 @@
        </div>
    </div>
 
-<div class="slide" id="services"></div>
+<div class="slide" id="services">
+    <div class="container"id="ensemble">
+        <div class="gauche"></div>
+        <div class="droite">
+            <div class="block1"></div>
+            <div class="block2"></div>
+
+        </div>
+
+    </div>
+</div>
 
 
 
